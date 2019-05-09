@@ -1,0 +1,13 @@
+CREATE TABLE USERDATA(
+ user_id serial PRIMARY KEY,
+ email VARCHAR (100) NOT NULL,
+ password VARCHAR (100) NOT NULL,
+ name VARCHAR (100) NOT NULL,
+ last_name VARCHAR (100) NOT NULL,
+ active Integer NOT NULL
+);
+
+CREATE TABLE roledata(
+ role_id serial PRIMARY KEY,
+ role VARCHAR (50) NOT NULL
+);
